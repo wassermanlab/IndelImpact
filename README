@@ -1,0 +1,5 @@
+Indel analysis script to calculate impact scores (alt/ref ratios). 
+
+Run perl indel_init.pl -i <VCF-file> -b <BED-file> -o <output file>. 
+
+BED-file is a BED-formatted file with the list of TFBSs to look for indels within. 
