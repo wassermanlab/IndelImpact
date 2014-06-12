@@ -1,5 +1,9 @@
-Indel analysis script to calculate impact scores (alt/ref ratios). 
+Indel analysis script to calculate impact scores (alt/ref ratios). Reference TFBS threshold is 85%. 
 
 Run perl indel_init.pl -i <VCF-file> -b <BED-file> -o <output file>. 
 
 BED-file is a BED-formatted file with the list of TFBSs to look for indels within. 
+
+Have an "allScoresDir" in the directory you run the script from (or just modify to create the directory in the script). 
+
+Compile littleprogram_indels.cpp before running the program. 
